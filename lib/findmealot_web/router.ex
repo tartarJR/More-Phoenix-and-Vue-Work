@@ -23,4 +23,11 @@ defmodule FindmealotWeb.Router do
   # scope "/api", FindmealotWeb do
   #   pipe_through :api
   # end
+
+  scope "/api", FindmealotWeb do
+    pipe_through :api
+
+    post "/lots", LotApiController, :findLots
+  end
+
 end
