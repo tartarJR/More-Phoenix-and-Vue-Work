@@ -13,6 +13,7 @@
                         'Elixir.FindmealotWeb.ErrorView',
                         'Elixir.FindmealotWeb.Gettext',
                         'Elixir.FindmealotWeb.LayoutView',
+                        'Elixir.FindmealotWeb.LotApiController',
                         'Elixir.FindmealotWeb.PageController',
                         'Elixir.FindmealotWeb.PageView',
                         'Elixir.FindmealotWeb.Router',
