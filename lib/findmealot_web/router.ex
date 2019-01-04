@@ -27,7 +27,7 @@ defmodule FindmealotWeb.Router do
   scope "/api", FindmealotWeb do
     pipe_through :api
 
-    post "/lots", LotApiController, :findLots
+    get "/lots", LotApiController, :findLots
   end
 
 end
