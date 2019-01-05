@@ -3,12 +3,10 @@ import VueRouter from "vue-router";
 
 import "axios";
 import search from "./search";
-import results from "./results";
 
 Vue.use(VueRouter);
 
 Vue.component("search", search);
-Vue.component("results", results);
 
 var router = new VueRouter({
   routes: [
